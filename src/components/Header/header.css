@@ -11,8 +11,8 @@ header{
     background-image: url("../../images/4324232.jpg");
     background-attachment: scroll;
     background-position: center center;
-    width:100%;
-    height:100vh;
+    min-width:100%;
+    min-height:100vh;
     opacity: 1;
     visibility: inherit;
     z-index: 20;
@@ -43,7 +43,7 @@ header{
     font-style:normal;
     position:relative;
     text-transform: uppercase;
-    margin-bottom:1em;
+    margin-bottom:1em;  
 }
 
 .mainp{

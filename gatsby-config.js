@@ -3,7 +3,7 @@ module.exports = {
     title: `Brujas Mexico`,
     description: `Festival De Brujas, Festival de Brujas México `,
     author: `@drakarzamael`,
-  },
+    },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
