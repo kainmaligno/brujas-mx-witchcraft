@@ -5,7 +5,7 @@ height:auto;
 width: auto;
 padding:1em;
 display:flex;
-flex-direction:column;
+flex-direction:${props => (props.rows? 'row': 'column')};
 justify-content:center;
 align-items:center;
 border:3px solid red;

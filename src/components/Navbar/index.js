@@ -78,13 +78,13 @@ const Navbar = () => {
             <Anchor href="#">About</Anchor>
           </List>
           <List>
-            <Anchor href="#">Events</Anchor>
+            <Anchor href="#">We are</Anchor>
           </List>
           <List>
-            <Anchor href="#">Portfolio</Anchor>
+            <Anchor href="#">Galery</Anchor>
           </List>
           <List>
-            <Anchor href="#">Blog</Anchor>
+            <Anchor href="#">Coming Soon</Anchor>
           </List>
           <List>
             <Anchor href="#">Contact</Anchor>
