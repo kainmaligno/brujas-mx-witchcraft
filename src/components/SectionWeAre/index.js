@@ -5,8 +5,6 @@ import Separador from "../Elements/separador"
 import Star from "../image"
 import Section from "../../components/Elements/ContenedorSeccion"
 import Subtitle from "../../components/Elements/Subtitle"
-import Brujas from '../../images/logob-negro.jpg'
-
 const AboutText = styled.p`
 font-family: 'Hind', sans-serif;
 text-align:justify;

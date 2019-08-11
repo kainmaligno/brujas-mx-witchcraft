@@ -1,8 +1,8 @@
-import { Link } from "gatsby"
+import React from "react"
 import "./header.css"
 import PropTypes from "prop-types"
 import Navbar from '../Navbar'
-import React from "react"
+
 
 const Header = ({ siteTitle }) => (
   <header>

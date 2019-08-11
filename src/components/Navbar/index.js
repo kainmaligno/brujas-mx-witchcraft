@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import logo from "../../images/star.png"
-import { Link } from "gatsby"
 
 const Nav = styled.nav`
   width: 100%;

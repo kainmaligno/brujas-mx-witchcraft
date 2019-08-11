@@ -33,6 +33,9 @@ const FootBox = styled.div`
   justify-content: center;
   align-items: center;
   margin-left: 2em;
+  font-family:'Helvetica Neue', 'Arial', 'sans-serif';
+  color:#ededed !important;
+  font-size:15px;
 
   /* @media ${device.desktop} {
     width: 33.3%;
@@ -45,6 +48,7 @@ const FootBox = styled.div`
   @media ${device.laptop} {
   } */
 `
+
 const SecondaryFoot = styled.div`
   color: #acacad;
   background-color: rgba(16, 16, 16, 1);
@@ -63,6 +67,9 @@ const SecondContainer = styled.div`
   align-items: center;
   margin-left: 220px;
   margin-right: 220px;
+  font-family:'Helvetica Neue', 'Arial', 'sans-serif';
+  color:#ededed !important;
+  font-size:15px;
 `
 
 const Footer = () => (
@@ -71,29 +78,29 @@ const Footer = () => (
       <Container>
         <FootBox>
           <span>
-            <img src={penta} style={{ height: 50, width: 50 }} />{" "}
+            <img alt='img' src={penta} style={{ height: 50, width: 50 }} />{" "}
           </span>
-          <span>(+44) 239 121 332</span>
+          <span >(+44) 239 121 332</span>
         </FootBox>
         <FootBox>
           <span>
-            <img src={penta} style={{ height: 50, width: 50 }} />{" "}
+            <img alt='img1' src={penta} style={{ height: 50, width: 50 }} />{" "}
           </span>
 
-          <span>PO Box 16122 Collins Street West Victoria 8007 Australia</span>
+          <span style={{textAlign:'center'}}>PO Box 16122 Collins Street West Victoria 8007 Australia</span>
         </FootBox>
         <FootBox>
           <span>
-            <img src={penta} style={{ height: 50, width: 50 }} />{" "}
+            <img alt='img2' src={penta} style={{ height: 50, width: 50 }} />{" "}
           </span>
 
-          <span>hello@example.com job@example.com</span>
+          <span style={{textAlign:'center'}}>hello@example.com <br/>job@example.com</span>
         </FootBox>
       </Container>
     </PrimaryFoot>
     <SecondaryFoot>
       <SecondContainer>
-        <p>
+        <p style={{textAlign:'center'}}>
           Copyrigth © 2016 - {new Date().getFullYear()}, Festival de Brujas La
           Bruja Moderna. Todos los derechos reservados. Cualquier reproducción o
           uso total o parcial sin permiso de los autores sera sancionado
@@ -101,7 +108,7 @@ const Footer = () => (
           Brujas © Sandra Ramirez / ©
         </p>
         {` `}
-        <a href="https://www.gatsbyjs.org">Drakar zamael</a>
+        <a style={{textDecoration:'none',color:'#dedede'}} href="https://www.google.com">Drakar zamael</a>
       </SecondContainer>
     </SecondaryFoot>
   </FooterContainer>

@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import { useStaticQuery, graphql } from 'gatsby'
 //components
 import Separador from "../Elements/separador"
 import Star from "../image"
-import Section from "../../components/Elements/ContenedorSeccion"
-import Subtitle from "../../components/Elements/Subtitle"
-import Brujas from '../../images/logob-negro.jpg'
+import Section from "../Elements/ContenedorSeccion"
+import Subtitle from "../Elements/Subtitle"
+import Portfolio from '../Galery'
 
 const AboutText = styled.p`
 font-family: 'Hind', sans-serif;
@@ -23,7 +24,10 @@ const Galery = ()=>(
       Cada festival de brujas lo realizamos con diferente temática dentro del tema mágico, como festival de brujas y hadas, potterico, o celebrando cada 
       estación de la rueda.
       </AboutText>
+      <Portfolio/>
+ 
   </Section>
+  
  </div>
 )
 
