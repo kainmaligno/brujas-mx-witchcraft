@@ -37,7 +37,6 @@ const Eventos = () => {
     <ImageContainer>
       {Object.keys(eventos).length ? (
         eventos.allFile.edges.map((image, i) => {
-          console.log(image.node)
           return <Cards image={image.node.childImageSharp.fluid} key={i} />
         })
       ) : (

@@ -37,7 +37,6 @@ const Portfolio = () => {
     <ImageContainer>
       {Object.keys(data).length ? (
         data.allFile.edges.map((image, i) => {
-          console.log(image.node)
           return <Cards image={image.node.childImageSharp.fluid} key={i} />
         })
       ) : (

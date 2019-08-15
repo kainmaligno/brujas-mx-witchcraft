@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 //components
 import Separador from "../Elements/separador"
-import Star from "../image"
+import Trisquel from "../trisquel"
 import Section from "../../components/Elements/ContenedorSeccion"
 import Subtitle from "../../components/Elements/Subtitle"
 const AboutText = styled.p`
@@ -13,7 +13,7 @@ text-align:justify;
 const WeAre = ()=>(
  <div>
   <Separador>
-      <Star/>
+      <Trisquel/>
   </Separador>
   <Section styled>
       <Subtitle>WE ARE</Subtitle>

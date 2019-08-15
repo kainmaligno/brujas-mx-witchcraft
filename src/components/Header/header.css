@@ -4,6 +4,7 @@
 header{
     margin-bottom: 2%;
 }
+
 .hero{
     background-color:rgb(0,0,0,0);
     background-size:cover;
@@ -16,7 +17,7 @@ header{
     opacity: 1;
     visibility: inherit;
     z-index: 20;
-    /*flex direcion*/
+    
     display: flex;
     flex-direction: column;
     justify-content: center;

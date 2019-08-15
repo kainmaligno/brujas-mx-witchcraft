@@ -1,9 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useStaticQuery, graphql } from 'gatsby'
 //components
 import Separador from "../Elements/separador"
-import Star from "../image"
+import Trisquel from '../trisquel'
 import Section from "../Elements/ContenedorSeccion"
 import Subtitle from "../Elements/Subtitle"
 import Portfolio from '../Galery'
@@ -16,7 +15,7 @@ text-align:justify;
 const Galery = ()=>(
  <div>
   <Separador>
-      <Star/>
+      <Trisquel/>
   </Separador>
   <Section>
       <Subtitle>GALERY</Subtitle>

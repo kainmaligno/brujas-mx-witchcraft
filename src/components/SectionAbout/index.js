@@ -2,7 +2,8 @@ import React from "react"
 import styled from "styled-components"
 //components
 import Separador from "../Elements/separador"
-import Star from "../image"
+import trisquel from '../../images/trisquel.png'
+import Trisquel from '../trisquel'
 import Section from "../../components/Elements/ContenedorSeccion"
 import Subtitle from "../../components/Elements/Subtitle"
 //utils
@@ -16,7 +17,7 @@ text-align:justify;
 const About = () => (
   <div>
     <Separador>
-      <Star />
+        <Trisquel/>
     </Separador>
 
     <Section>
